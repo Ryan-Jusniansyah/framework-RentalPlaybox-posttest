@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-bootstrap5 = "*"
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+mysqlclient = "*"
+django-seed = "*"
+psycopg2 = "*"
+=======
+>>>>>>> 5281bece60a07cae2e94e86e8e0a0e10669da11b
+=======
+>>>>>>> 5281bece60a07cae2e94e86e8e0a0e10669da11b
+=======
+>>>>>>> 5281bece60a07cae2e94e86e8e0a0e10669da11b
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

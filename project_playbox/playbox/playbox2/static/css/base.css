@@ -1,0 +1,494 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+/* base.html */
+body {
+    background-color: blue;
+    height: 200vh;
+}
+
+.test{
+    background-color: aqua;
+    border-bottom: 1rem;
+}
+
+.Brand{
+    color: white;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.buttonnav{
+    margin-left: 1rem;
+    border: none;
+    background-color: aqua;
+    
+}
+
+.buttonnav:hover{
+    border-radius: 10%;
+    background-color: navy;
+    transition: 0.5s;
+}
+
+.nav-link:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.navbar-nav{
+    margin-right: 2rem;
+}
+
+/* Index.html */
+.heading{
+    position: absolute;
+    left: 0;
+    padding-top: 17rem;
+    margin-top: -1rem;
+    background-image: url(../image/heading.jpeg);
+    background-size: cover;
+    background-position-y: -55rem;
+    height: 40rem;
+    width: 100%;
+    color: white;
+}
+
+h1.title{
+    font-size: 2rem;
+}
+
+h3.deskripsi{
+    font-size: 1rem;
+    text-align: justify;
+    width: 80%;
+}
+
+h4{
+    font-size: 1rem;
+}
+
+h3.menyewa{
+    font-size: 1rem;
+}
+
+h3.penutup{
+    font-size: 1rem;
+    width: 80%;
+    text-align: justify;
+}
+
+/* about.html */
+.he-about{
+    position: absolute;
+    align-items: center;
+    background-color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 80%;
+    border-radius: 10px;
+}
+
+h1.titleabout{
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+h3.deskripsiabout{
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: justify;
+}
+
+h3.penutupabout{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+/* rent.html */
+div.row{
+    margin-top: -1rem;
+    margin-left: 2.5rem;
+    padding: 1rem;
+}
+
+div.Penjelasansewa{
+    background-color: white;
+    width: 50%;
+    margin-left: 18.9rem;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 1rem;
+=======
+/* base.html */
+body {
+    background-color: blue;
+    height: 200vh;
+}
+
+.test{
+    background-color: aqua;
+    border-bottom: 1rem;
+}
+
+.Brand{
+    color: white;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.buttonnav{
+    margin-left: 1rem;
+    border: none;
+    background-color: aqua;
+    
+}
+
+.buttonnav:hover{
+    border-radius: 10%;
+    background-color: navy;
+    transition: 0.5s;
+}
+
+.nav-link:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.navbar-nav{
+    margin-right: 2rem;
+}
+
+/* Index.html */
+.heading{
+    position: absolute;
+    left: 0;
+    padding-top: 17rem;
+    margin-top: -1rem;
+    background-image: url(../image/heading.jpeg);
+    background-size: cover;
+    background-position-y: -55rem;
+    height: 40rem;
+    width: 100%;
+    color: white;
+}
+
+h1.title{
+    font-size: 2rem;
+}
+
+h3.deskripsi{
+    font-size: 1rem;
+    text-align: justify;
+    width: 80%;
+}
+
+h4{
+    font-size: 1rem;
+}
+
+h3.menyewa{
+    font-size: 1rem;
+}
+
+h3.penutup{
+    font-size: 1rem;
+    width: 80%;
+    text-align: justify;
+}
+
+/* about.html */
+.he-about{
+    position: absolute;
+    align-items: center;
+    background-color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 80%;
+    border-radius: 10px;
+}
+
+h1.titleabout{
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+h3.deskripsiabout{
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: justify;
+}
+
+h3.penutupabout{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+/* rent.html */
+div.row{
+    margin-top: -1rem;
+    margin-left: 2.5rem;
+    padding: 1rem;
+}
+
+div.Penjelasansewa{
+    background-color: white;
+    width: 50%;
+    margin-left: 18.9rem;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 1rem;
+>>>>>>> 5281bece60a07cae2e94e86e8e0a0e10669da11b
+=======
+/* base.html */
+body {
+    background-color: blue;
+    height: 200vh;
+}
+
+.test{
+    background-color: aqua;
+    border-bottom: 1rem;
+}
+
+.Brand{
+    color: white;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.buttonnav{
+    margin-left: 1rem;
+    border: none;
+    background-color: aqua;
+    
+}
+
+.buttonnav:hover{
+    border-radius: 10%;
+    background-color: navy;
+    transition: 0.5s;
+}
+
+.nav-link:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.navbar-nav{
+    margin-right: 2rem;
+}
+
+/* Index.html */
+.heading{
+    position: absolute;
+    left: 0;
+    padding-top: 17rem;
+    margin-top: -1rem;
+    background-image: url(../image/heading.jpeg);
+    background-size: cover;
+    background-position-y: -55rem;
+    height: 40rem;
+    width: 100%;
+    color: white;
+}
+
+h1.title{
+    font-size: 2rem;
+}
+
+h3.deskripsi{
+    font-size: 1rem;
+    text-align: justify;
+    width: 80%;
+}
+
+h4{
+    font-size: 1rem;
+}
+
+h3.menyewa{
+    font-size: 1rem;
+}
+
+h3.penutup{
+    font-size: 1rem;
+    width: 80%;
+    text-align: justify;
+}
+
+/* about.html */
+.he-about{
+    position: absolute;
+    align-items: center;
+    background-color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 80%;
+    border-radius: 10px;
+}
+
+h1.titleabout{
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+h3.deskripsiabout{
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: justify;
+}
+
+h3.penutupabout{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+/* rent.html */
+div.row{
+    margin-top: -1rem;
+    margin-left: 2.5rem;
+    padding: 1rem;
+}
+
+div.Penjelasansewa{
+    background-color: white;
+    width: 50%;
+    margin-left: 18.9rem;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 1rem;
+>>>>>>> 5281bece60a07cae2e94e86e8e0a0e10669da11b
+=======
+/* base.html */
+body {
+    background-color: blue;
+    height: 200vh;
+}
+
+.test{
+    background-color: aqua;
+    border-bottom: 1rem;
+}
+
+.Brand{
+    color: white;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.buttonnav{
+    margin-left: 1rem;
+    border: none;
+    background-color: aqua;
+    
+}
+
+.buttonnav:hover{
+    border-radius: 10%;
+    background-color: navy;
+    transition: 0.5s;
+}
+
+.nav-link:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.navbar-nav{
+    margin-right: 2rem;
+}
+
+/* Index.html */
+.heading{
+    position: absolute;
+    left: 0;
+    padding-top: 17rem;
+    margin-top: -1rem;
+    background-image: url(../image/heading.jpeg);
+    background-size: cover;
+    background-position-y: -55rem;
+    height: 40rem;
+    width: 100%;
+    color: white;
+}
+
+h1.title{
+    font-size: 2rem;
+}
+
+h3.deskripsi{
+    font-size: 1rem;
+    text-align: justify;
+    width: 80%;
+}
+
+h4{
+    font-size: 1rem;
+}
+
+h3.menyewa{
+    font-size: 1rem;
+}
+
+h3.penutup{
+    font-size: 1rem;
+    width: 80%;
+    text-align: justify;
+}
+
+/* about.html */
+.he-about{
+    position: absolute;
+    align-items: center;
+    background-color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 80%;
+    border-radius: 10px;
+}
+
+h1.titleabout{
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+h3.deskripsiabout{
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: justify;
+}
+
+h3.penutupabout{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+/* rent.html */
+div.row{
+    margin-top: -1rem;
+    margin-left: 2.5rem;
+    padding: 1rem;
+}
+
+div.Penjelasansewa{
+    background-color: white;
+    width: 50%;
+    margin-left: 18.9rem;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 1rem;
+>>>>>>> 5281bece60a07cae2e94e86e8e0a0e10669da11b
+}

@@ -26,7 +26,7 @@
 ![Table Customer](Posttest2(buktiss)/TableCust.png)
 
 ## C. Table Device
-![Table Device](Posttest2(buktiss)/TableDevice)
+![Table Device](Posttest2(buktiss)/TableDevice.png)
 
 ## D. Table User
 ![Table User](Posttest2(buktiss)/TableUsers.png)

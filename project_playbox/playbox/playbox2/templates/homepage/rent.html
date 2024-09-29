@@ -1,12 +1,12 @@
 {% extends "homepage/base.html" %}
 {% block title %} Rent {% endblock %}
-
+{% load static %}
 {% block content %}
 <div class="containerrent">
     <div class="row">
         <div class="col">
             <div class="card" style="width: 18rem;">
-                <img src="../static/image/ps4.jpeg" class="card-img-top" alt="Ps4" style="height: 13.5rem">
+                <img src={% static "image/ps4.jpeg"%} class="card-img-top" alt="Ps4" style="height: 13.5rem">
                 <div class="card-body">
                   <h5 class="card-title">Playstation 4</h5>
                   <p class="card-text">Performa yang ditawarkan dari ps4 lumayan untuk bermain game berat sekarang!!</p>
@@ -16,7 +16,7 @@
         </div>
         <div class="col">
             <div class="card" style="width: 18rem;">
-                <img src="../static/image/ps3.jpeg" class="card-img-top" alt="Ps3" style="height: 10.5rem;">
+                <img src={% static "image/ps3.jpeg"%} class="card-img-top" alt="Ps3" style="height: 10.5rem;">
                 <div class="card-body">
                   <h5 class="card-title">Playstation 3</h5>
                   <p class="card-text">Playstation 3 ini merupakan generasi dibawah Playstation 4 maka dari itu game yang dimainkan atau ditawarkan tidak sebanyak PS4 & PS5</p>
@@ -26,7 +26,7 @@
         </div>
         <div class="col">
             <div class="card" style="width: 18rem;">
-                <img src="../static/image/ps5.jpeg" class="card-img-top" alt="ps5" style="height: 12rem;">
+                <img src={% static "image/ps5.jpeg"%} class="card-img-top" alt="ps5" style="height: 12rem;">
                 <div class="card-body">
                   <h5 class="card-title">Playstation 5</h5>
                   <p class="card-text">Playstation 5 merupakan generasi terbaru dari series Playstation yang dimana dapat melibas game-game yang berat sekarang</p>

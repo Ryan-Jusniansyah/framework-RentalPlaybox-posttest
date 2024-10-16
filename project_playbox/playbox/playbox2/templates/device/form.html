@@ -1,0 +1,44 @@
+{% csrf_token %}
+<!-- Nomor Device -->
+<div class="mb-3">
+  <label for="id_noDevice" class="form-label">Nomor Device</label>
+  <input type="number" class="form-control" id="id_noDevice" name="noDevice" value="{{ form.noDevice.value|default_if_none:'' }}" required />
+  <div class="invalid-feedback">{{ form.noDevice.errors }}</div>
+</div>
+<!-- Nama Device Field -->
+<div class="mb-3">
+  <label for="id_namaDevice" class="form-label">Nama Device</label>
+  <input type="text" class="form-control" id="id_namaDevice" name="namaDevice" value="{{ form.namaDevice.value|default_if_none:'' }}" required />
+  <div class="invalid-feedback">{{ form.namaDevice.errors }}</div>
+</div>
+<!-- Fasilitas Field -->
+<div class="mb-3">
+  <label for="id_fasilitas" class="form-label">Fasilitas</label>
+  <input type="text" class="form-control" id="id_fasilitas" name="fasilitas" value="{{ form.fasilitas.value|default_if_none:'' }}" required />
+  <div class="invalid-feedback">{{ form.fasilitas.errors }}</div>
+</div>
+<!-- Bonus Field -->
+<div class="mb-3">
+  <label for="id_bonus" class="form-label">Bonus</label>
+  <input type="text" class="form-control" id="id_bonus" name="bonus" value="{{ form.bonus.value|default_if_none:'' }}" required />
+  <div class="invalid-feedback">{{ form.bonus.errors }}</div>
+</div>
+<!-- Tanggal Masuk Field -->
+<div class="mb-3">
+  <label for="id_tanggalMasuk" class="form-label">Tanggal Masuk</label>
+  <input type="date" class="form-control" id="id_tanggalMasuk" name="tanggalMasuk" value="{{ form.tanggalMasuk.value|default_if_none:'' }}" required />
+  <div class="invalid-feedback">{{ form.tanggalMasuk.errors }}</div>
+</div>
+<!-- Teacher Field -->
+<div class="mb-3">
+    <label for="id_admin" class="form-label">Nama Penerima</label>
+    <select class="form-select" id="id_admin" name="admin" required>
+        {% for admin in form.admin.field.queryset %}
+        <option value="{{ admin.id }}" {% if admin.id == form.admin.value %}selected{% endif %}>
+        {{ admin.namaAdmin }}
+        </option>
+        {% endfor %}
+    </select>
+    <div class="invalid-feedback">{{ form.admin.errors }}</div>
+</div>
+<button type="submit" class="btn btn-primary">Simpan</button>

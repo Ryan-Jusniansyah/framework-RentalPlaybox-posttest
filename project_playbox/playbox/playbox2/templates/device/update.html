@@ -1,0 +1,15 @@
+{% extends 'homepage/base.html' %}
+{% block title %}
+  Update Device
+{% endblock %}
+{% block content %}
+  <div class="container">
+    <div class="d-flex align-items-center justify-content-between">
+      <h1>Update Device : {{ device.namaDevice }}</h1>
+      <a href="{% url 'device_index' %}" class="btn btn-secondary">Kembali</a>
+    </div>
+    <form class="needs-validation" method="POST">
+      {% include 'device/form.html' %}
+    </form>
+  </div>
+{% endblock %}

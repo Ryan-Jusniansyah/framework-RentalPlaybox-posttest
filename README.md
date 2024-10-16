@@ -47,3 +47,12 @@
 
 ## Penjelasan Fungsi/aksi pada Admin
 ### Jadi, pada fungsi/aksi pada admin disini adalah dia bakal mengecek berdasarkan nomor admin, yang terterah pada table user diatas dia hanya mengambil angka saja, jika belum memiliki akun dia akan membuatkan password secara random serta role admin secara langsung, jika tidak terbuat maka dia bakal kasih role admin saja dan langsung save model tersebut.
+
+
+# Posttest 4
+## 1. Table Dashboard
+![Table Dashboard](Posttest4(buktiss)/table1.png)
+![Table Dashboard1](Posttest4(buktiss)/table2.png)
+
+## 2. Form Tambah Device
+![Form Tambah](Posttest4(buktiss)/formTambah.png)
